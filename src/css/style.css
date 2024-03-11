@@ -1,0 +1,115 @@
+:root {
+    --font-size--: 14px;
+    --font-weight--: 600;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #141414;
+}
+
+
+
+.card {
+    background-color: #1F1F1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 290px;
+    height: 525px;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.profile-image {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+span {
+    margin-top: 5px;
+    color: #b9e41e;
+    font-size: 13px;
+}
+
+.card p {
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.card .links a:hover {
+    background-color: #ffffff;
+    transition: 0, 3s ease-in-out;
+    color: #141414;
+
+}
+
+
+
+.links {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+
+.github {
+    background-color: #141414;
+    padding: 10px 95px;
+    border-radius: 10px;
+    font-size: var(--font-size--);
+    font-weight: var(--font-weight--);
+}
+
+.mentor {
+    background-color: #141414;
+    padding: 10px 64px;
+    border-radius: 10px;
+    font-size: var(--font-size--);
+    font-weight: var(--font-weight--);
+
+
+
+}
+
+.linkedin {
+    background-color: #141414;
+    padding: 10px 93px;
+    border-radius: 10px;
+    font-size: var(--font-size--);
+    font-weight: var(--font-weight--);
+
+}
+
+.twitter {
+    background-color: #141414;
+    padding: 10px 98px;
+    border-radius: 10px;
+    font-size: var(--font-size--);
+    font-weight: var(--font-weight--);
+
+
+}
+
+.instagram {
+    background-color: #141414;
+    padding: 10px 89px;
+    border-radius: 10px;
+    font-size: var(--font-size--);
+    font-weight: var(--font-weight--);
+
+
+}
